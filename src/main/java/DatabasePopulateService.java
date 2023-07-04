@@ -88,8 +88,8 @@ public class DatabasePopulateService {
         preparedStatement = connection.prepareStatement("INSERT INTO project_worker (project_id , worker_id) VALUES (?, ?)");
         try {
 
-            batchUpdate( 1, 5);
-            batchUpdate( 2, 6);
+            batchUpdate( 1, 9);
+            batchUpdate( 2, 10);
 
         } catch (Exception e) {
             e.printStackTrace();
